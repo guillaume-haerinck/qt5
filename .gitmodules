@@ -1,7 +1,7 @@
 [submodule "qtbase"]
 	path = qtbase
-	url = ../qtbase.git
-	branch = 6.9.1
+	url = https://github.com/guillaume-haerinck/qtbase.git
+	branch = 6.9.1-o3de
 	status = essential
 [submodule "qtsvg"]
 	depends = qtbase
@@ -136,8 +136,8 @@
 [submodule "qtimageformats"]
 	depends = qtbase
 	path = qtimageformats
-	url = ../qtimageformats.git
-	branch = 6.9.1
+	url = https://github.com/guillaume-haerinck/qtimageformats.git
+	branch = 6.9.1-o3de
 	status = addon
 [submodule "qtserialbus"]
 	depends = qtbase
